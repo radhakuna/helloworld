@@ -18,7 +18,6 @@ pipeline{
                 echo 'starting the code build'
                 sh 'mvn clean deploy -DskipTests=true'
             }
-        }        
-      }
+        }            
     }
 }
